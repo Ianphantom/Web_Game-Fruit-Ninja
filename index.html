@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Ninja Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="score">
+                Score: <span id="scorevalue">0</span>
+            </div>
+            <div id="trialsleft"></div>
+            <div id="correct">Correct</div>
+            <div id="wrong">Try Again</div>
+            <div id="question">
+                <img id="fruit" class="fruits">
+            </div>
+            <div id="instruction">Potong buah yang jatuh</div>
+            <div id="startreset">Start Game</div>
+            <div id="gameover"></div>
+            <audio id="sound">
+                <source src="audio/slicefruit.mp3">
+                <source src="audio/slicefruit.ogg">
+            </audio>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+            <script src="jquery.js"></script>
+        </div>
+    </body>
+</html>
