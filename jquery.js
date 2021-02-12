@@ -15,8 +15,8 @@ $(function(){
             $("#trialsleft").show();
             trialsleft = 3;
             addHearts();
-            $("#startreset").html("Reset Game");
             $("#gameover").hide();
+            $("#startreset").html("Reset Game");
             startGame();
         }
     });
